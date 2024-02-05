@@ -8,6 +8,19 @@ public class Bag {
         this.invitation = invitation;
         this.amount = amount;
     }
+    public Long hold(Ticket ticket){
+        //가방의 자율성을 보장하기 위해 티켓 구매시 지출되는 메소드를 bag에서 수행하도록 설계한다.
+        // 관객이 가방의 내부 상태로 직접 접근하지 않도록 캡슐화
+        if(hasInvitation()){
+            setTicket(ticket);
+            return 0L;
+
+        }else{
+            setTicket(ticket);
+            minusAmount(ticket.getFee());
+            return ticket.getFee();
+        }
+    }
     private Long amount;
     private Invitation invitation;
     private Ticket ticket;

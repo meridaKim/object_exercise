@@ -14,16 +14,7 @@ public class Audience {
     }
 
     public Long buy(Ticket ticket){
-        //가방에 초대장이 있는지 없는지를 가방의 주인인 관객이 확인한다.
-        if(bag.hasInvitation()){
-            bag.setTicket(ticket);
-            return 0L;
-
-        }else{
-            bag.setTicket(ticket);
-            bag.minusAmount(ticket.getFee());
-            return ticket.getFee();
-
-        }
+        //가방의 자율성 보장을 위해 가방 호출만 한다.
+        return bag.hold(ticket);
     }
 }
