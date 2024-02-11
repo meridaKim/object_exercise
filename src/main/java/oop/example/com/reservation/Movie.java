@@ -1,7 +1,6 @@
-package oop.reservation_movie.reservation;
+package oop.example.com.reservation;
 
 import java.time.Duration;
-import javax.management.Query;
 
 public class Movie {
     private String title;

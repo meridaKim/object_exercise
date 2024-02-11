@@ -1,4 +1,4 @@
-package oop.reservation_movie.reservation;
+package oop.example.com.reservation;
 
 public class AmountDiscountPolicy extends DiscountPolicy{
     private Money discouintAmount;

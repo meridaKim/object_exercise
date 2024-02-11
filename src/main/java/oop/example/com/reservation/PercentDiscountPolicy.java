@@ -1,4 +1,4 @@
-package oop.reservation_movie.reservation;
+package oop.example.com.reservation;
 
 public class PercentDiscountPolicy extends DiscountPolicy{
     private double percent;

@@ -1,4 +1,4 @@
-package oop.reservation_movie.reservation;
+package oop.example.com.reservation;
 
 import java.util.ArrayList;
 import java.util.Arrays;

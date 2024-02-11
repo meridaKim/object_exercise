@@ -1,4 +1,4 @@
-package oop.reservation_movie;
+package oop.example.com;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

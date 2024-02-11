@@ -1,4 +1,4 @@
-package oop.reservation_movie.ticket;
+package oop.example.com.ticket;
 
 import java.time.LocalDateTime;
 

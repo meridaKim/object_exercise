@@ -1,4 +1,4 @@
-package oop.reservation_movie.ticket;
+package oop.example.com.ticket;
 
 public class Bag {
     public Bag(long amount){

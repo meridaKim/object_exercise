@@ -1,7 +1,6 @@
-package oop.reservation_movie.reservation;
+package oop.example.com.reservation;
 
 import java.time.DayOfWeek;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class PeriodCondition implements DiscountCondition{
