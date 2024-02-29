@@ -1,6 +1,9 @@
  # 📚 개발 서적 스터디
-✅ 객체지향 사실과 오해
-✅ 오브젝트
+ |  |book_list |  
+|---|---|
+|✅| 객체지향 사실과 오해
+|✅| 오브젝트
+
 
 <a href="https://velog.io/@luckyzanie777">
 <img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white"/></a>
