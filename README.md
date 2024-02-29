@@ -8,6 +8,7 @@
 # [객사오 스터디](https://strong-lace-c81.notion.site/14d230239a6a4e7d8ae7e0ee3ea781a6)
 ## 2024.01.19~ 02.01일(4주간 진행)
 <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/>
+
 | no | chapter |  
 |---|---|
 |1| [자바 시작하기](https://github.com/meridaKim/TIL/blob/main/Java/Chapter01.md)
