@@ -1,4 +1,4 @@
-package oop.example.com.abstractfactorypattern;
+package oop.example.com.abstract_factory_pattern;
 
 public class ConcreteFactory2 implements AbstractFactory{
 

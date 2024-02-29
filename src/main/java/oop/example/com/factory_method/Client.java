@@ -1,4 +1,4 @@
-package oop.example.com.factorymethod;
+package oop.example.com.factory_method;
 
 public class Client {
     public static void main(String [] args){

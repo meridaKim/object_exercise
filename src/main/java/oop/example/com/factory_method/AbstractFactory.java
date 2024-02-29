@@ -1,4 +1,4 @@
-package oop.example.com.factorymethod;
+package oop.example.com.factory_method;
 
 abstract class AbstractFactory {
     final Product createOperation(){
