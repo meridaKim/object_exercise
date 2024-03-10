@@ -12,7 +12,6 @@ public class NightlyDiscountPolicy extends BasicRatePolicy {
 
     public NightlyDiscountPolicy(Money nightlyAmount, Money regularAmount, Duration seconds) {
         this.nightlyAmount = nightlyAmount;
-        this.regularAmount = regularAmount;
         this.seconds = seconds;
     }
 

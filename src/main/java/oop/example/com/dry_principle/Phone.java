@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public abstract class Phone {
+public class Phone {
     private RatePolicy ratePolicy;
     private List<Call> calls = new ArrayList<>();
 
