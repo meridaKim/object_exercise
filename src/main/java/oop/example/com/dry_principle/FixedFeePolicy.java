@@ -2,11 +2,11 @@ package oop.example.com.dry_principle;
 
 import java.time.Duration;
 
-public class RegularPolicy extends BasicRatePolicy {
+public class FixedFeePolicy extends BasicRatePolicy {
     private Money amount;
     private Duration seconds;
 
-    public RegularPolicy(Money amount, Duration seconds) {
+    public FixedFeePolicy(Money amount, Duration seconds) {
         this.amount = amount;
         this.seconds = seconds;
     }
